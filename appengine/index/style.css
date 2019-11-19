@@ -6,16 +6,16 @@ html, body {
   overflow: hidden;
 }
 
-#languageMenu {
+#header_cta {
   position: absolute;
   top: 0;
 }
 
-html[dir="LTR"] #languageMenu {
+html[dir="LTR"] #header_cta {
   right: 1em;
 }
 
-html[dir="RTL"] #languageMenu {
+html[dir="RTL"] #header_cta {
   left: 1em;
 }
 

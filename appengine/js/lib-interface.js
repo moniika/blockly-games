@@ -28,7 +28,6 @@ goog.require('Blockly.geras.Renderer');
 goog.require('BlocklyGames');
 goog.require('BlocklyGames.Msg');
 
-
 /**
  * Text editor (used as an alternative to Blockly in advanced apps).
  * @type Object

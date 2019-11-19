@@ -104,6 +104,36 @@ button:hover:not(:disabled) {
   box-shadow: 2px 2px 5px #888;
 }
 
+/* Login/logout link */
+.loginButton, .logoutButton {
+  border-radius: 4px;
+  font-size: large;
+  margin: 5px;
+  padding: 10px;
+  text-decoration: none;
+}
+.loginButton {
+  background-color: #4d90fe;
+  border: 1px solid #4d90fe;
+  color: #fff;
+}
+.logoutButton {
+  background-color: #eee;
+  border: 1px solid #ddd;
+  color: #000;
+}
+.loginButton:active:not(:disabled), .logoutButton:active:not(:disabled) {
+  border: 1px solid #888 !important;
+}
+.loginButton:hover:not(:disabled) {
+  box-shadow: 2px 2px 5px #888;
+  color: #fff;
+}
+.logoutButton:hover:not(:disabled) {
+  box-shadow: 2px 2px 5px #888;
+  color: #000;
+}
+
 /* Dialogs */
 #dialog {
   visibility: hidden;

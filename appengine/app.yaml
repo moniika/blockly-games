@@ -164,6 +164,11 @@ handlers:
   upload: robots\.txt
   secure: always
 
+# Login
+- url: /login
+  script: login.py
+  secure: always
+
 # Legacy Reddit redirects.
 # Obsolete as of May 2018.
 - url: /turtle-reddit
